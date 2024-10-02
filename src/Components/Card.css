@@ -1,0 +1,41 @@
+/* Card.css */
+.card {
+    width: 80%; /* Reduced width by 20% */
+    max-width: 350px; /* Optional: Set a max width for larger screens */
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .card-id {
+    font-weight: bold;
+    font-size: 1.0rem; /* Equivalent to text-lg */
+    margin-bottom: 3px;
+  }
+  
+  .card-title {
+    font-weight: 500;
+    font-size: 1.5rem; /* Equivalent to text-xl */
+    margin-bottom: px;
+  }
+  
+  .card-tag {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: gray;
+    margin-bottom: 8px;
+  }
+  
+  .tag {
+    padding: 1px 1px;
+    background-color: #e5e7eb; /* Equivalent to bg-gray-300 */
+    border-radius: 4px;
+    margin-right: 2px;
+  }
+  
+  .card-status,
+  .card-priority {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+  }
+  

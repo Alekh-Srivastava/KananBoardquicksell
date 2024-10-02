@@ -1,0 +1,26 @@
+/* KanbanBoard.css */
+.kanban-board {
+    display: flex; /* Use Flexbox to arrange columns side by side */
+    justify-content: space-between; /* Optional: evenly space columns */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    padding: 16px; /* Add some padding around the board */
+  }
+  
+  .column {
+    flex: 1; /* Each column takes equal space */
+    margin: 0 10px; /* Add horizontal spacing between columns */
+    min-width: 250px; /* Set a minimum width for each column */
+  }
+  
+  .column-title {
+    font-size: 1.5rem; /* Title font size */
+    font-weight: bold;
+    margin-bottom: 16px; 
+  }
+  
+  .ticket-list {
+    background-color: #6b7280; /* Background color for the ticket list */
+    padding: 16px;
+    border-radius: 8px;
+  }
+  

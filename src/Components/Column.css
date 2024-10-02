@@ -1,0 +1,24 @@
+/* Column.css */
+.columns-container {
+    display: flex; /* Enable Flexbox */
+    /* justify-content: space-between; */
+    flex-wrap: nowrap; /* Prevent wrapping */
+  }
+  
+  .column {
+    flex: 1; /* Each column takes equal width */
+    margin: 0 0px; /* Add horizontal spacing */
+  }
+  
+  .column-title {
+    font-size: 1.0rem; /* Title font size */
+    font-weight: bold; 
+    margin-bottom: 6px; 
+  }
+  
+  .ticket-list {
+    background-color: #6b7280; /* Background color for the ticket list */
+    padding: 1px;
+    border-radius: 8px;
+  }
+  
