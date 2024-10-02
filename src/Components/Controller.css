@@ -1,0 +1,63 @@
+.control-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .control-bar label {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .control-bar select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: border 0.3s;
+  }
+  
+  .control-bar select:hover {
+    border-color: #0078e7;
+  }
+  
+  .display-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .display-toggle:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .display-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .hidden-options {
+    display: none;
+  }
+  
+  .show-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
